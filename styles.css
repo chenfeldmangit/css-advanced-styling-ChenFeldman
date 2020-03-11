@@ -1,0 +1,154 @@
+.sideMenu{
+    float: left;
+}
+
+.sideMenu .menuItem{
+    border: 1px solid navy;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    padding: 15px 0 0 15px;    
+    cursor: pointer;
+}
+
+.sideMenu .menuItem:hover{
+    background-color: gray;
+}
+
+.sideMenu .menuItem.top{
+    border:none;
+}
+
+.sideMenu .menuItem .icon{
+    height: 30px;
+    width: 30px;   
+    float:left;
+    margin: 0 10px 0 0;
+}
+
+.sideMenu .menuItem .icon.profile {
+    background-image: url('https://pbs.twimg.com/profile_images/1090932791829819393/Syg_hmp6_bigger.jpg');
+    background-size: contain;
+}
+
+.sideMenu .menuItem .title{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gongButton{
+    margin: 10px 0 0 0;
+    background-color: rgb(29, 161, 242);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 8px 28px;
+    height: 50px;
+    width: 200px;
+    cursor:pointer;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gongButton:hover{
+    background-color: rgb(29, 161, 220);
+}
+
+.newsFeedWrapper{
+    margin: 15px 0 0 30px;
+    width: 60%;
+    display: inline-block;
+}
+
+.newsFeedWrapper .tweetType,
+.newsFeedWrapper .tweetType .icon,
+.newsFeedWrapper .tweetUpdate {
+    display:inline-block;
+}
+
+.newsFeedWrapper .tweetType .icon{
+    margin:7px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color:white;
+}
+
+.newsFeedWrapper .tweetType .icon:hover {
+    background-color:gray;
+    color:black;
+}
+
+
+.newsFeedWrapper .tweetUpdate {
+    width:120px;
+}
+
+.newsFeedWrapper .tweetWrapper .content{
+    width:500px;
+}
+
+.newsFeedWrapper .tweetWrapper .content .profileImage{
+    display:inline-block;
+    background-image: url('https://pbs.twimg.com/profile_images/1090932791829819393/Syg_hmp6_bigger.jpg');
+    background-size: contain;
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+}
+
+.newsFeedWrapper .tweetWrapper .content .textUpdate{
+    display: inline-block;
+}
+
+.newsFeedWrapper .tweetWrapper .content .textUpdate textarea{
+    width:300px;
+    height:100px;
+    font-size:16px;
+}
+
+.newsFeedWrapper .newsFeed {
+    margin:30px 0 0 0;
+}
+
+.newsFeedWrapper .newsFeed .item {
+    border:1px solid blue;
+    border-radius: 10px;
+    margin:30px;
+    padding: 20px;
+}
+
+.newsFeedWrapper .newsFeed .userProfile .image{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    width:50px;
+    height:50px;
+    background-image: url('https://pbs.twimg.com/profile_images/1090932791829819393/Syg_hmp6_bigger.jpg');
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.newsFeedWrapper .newsFeed .userProfile .name{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.newsFeedWrapper .newsFeed .content{
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.newsFeedWrapper .newsFeed .actionsWrapper{
+}
+
+.newsFeedWrapper .newsFeed .actionsWrapper .action{
+    display: inline-block;
+    width:20px;
+    height:20px
+}
+
+.newsFeedWrapper .newsFeed .actionsWrapper .action:hover{
+    background-color:gray;
+}
+
